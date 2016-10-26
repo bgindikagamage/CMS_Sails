@@ -11,7 +11,8 @@ module.exports.webpack = {
     devtool: 'eval',
 
     entry: [
-      'assets/js',
+      './assets/js',
+      './assets/js/helloworld',
       'webpack-hot-middleware/client'
     ],
 
