@@ -5,7 +5,8 @@ before(function (done) {
   Sails.lift({
     log : {
       level : 'info'   //指定错误级别，避免出现调试输出，这主要是用来调试controller
-    }
+    },
+    port:1447
   }, function (err, server) {
     sails = server;
     if (err)
